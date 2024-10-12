@@ -1,0 +1,1 @@
+import Link from "next/link";export default function DashboardMainPage() {    return<Link href="/user" className="widgetMain">        MainPage    </Link>}

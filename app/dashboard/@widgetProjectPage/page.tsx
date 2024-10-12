@@ -1,0 +1,1 @@
+import Link from 'next/link'export default function WidgetProjectPage() {    return <Link href='/projects' className='widgetProject'>WidgetProjectPage</Link>}

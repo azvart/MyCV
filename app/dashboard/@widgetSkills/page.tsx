@@ -1,0 +1,1 @@
+import Link from "next/link";export default function WidgetSkillsPage() {    return <Link href='/skills' className="widgetSkills">WidgetSkillsPage</Link>}

@@ -1,0 +1,1 @@
+import Link from 'next/link'export default function WidgetExperiencePage() {    return <Link href='/experience'  className='widgetExperience'>        WidgetExperiencePage    </Link>}

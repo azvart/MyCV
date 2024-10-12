@@ -1,0 +1,1 @@
+import Link from 'next/link'export default function WidgetCurrentPlacePage() {    return <Link href='/current-place'  className='widgetCurrentPlace'>        WidgetCurrentPlacePage    </Link>;}

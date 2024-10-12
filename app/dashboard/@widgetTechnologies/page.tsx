@@ -1,0 +1,1 @@
+import Link from 'next/link'export default function WidgetTechnologiesPage() {    return <Link href='/technologies' className="widgetTechnologies">        WidgetTechnologiesPage    </Link>}
