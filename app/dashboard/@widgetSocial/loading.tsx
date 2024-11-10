@@ -1,0 +1,1 @@
+export default function WidgetSocialLoading(){    return <div className="spinner"></div>}

@@ -1,1 +1,1 @@
-import Link from 'next/link'export default function WidgetProjectPage() {    return <Link href='/projects' className='widgetProject'>WidgetProjectPage</Link>}
+import Link from 'next/link'export const dynamic = 'force-dynamic';export default async function WidgetProjectPage() {    return <div className="widgetProject">        <Link href="/projects">Go to projects page</Link>    </div>}
