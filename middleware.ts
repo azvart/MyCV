@@ -1,1 +1,1 @@
-import { NextResponse } from "next/server";import type { NextRequest } from "next/server";export function middleware(request:NextRequest){    if(request.nextUrl.pathname.startsWith('/')){        return NextResponse.redirect(new URL('/dashboard', request.url))    }}export const config = {    matcher:['/']}
+import authConfig from "./auth.config"import NextAuth from "next-auth"export const { auth:middleware } = NextAuth(authConfig)export const config = {    matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"],}
